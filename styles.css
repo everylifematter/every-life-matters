@@ -39,14 +39,40 @@ nav ul li a:hover {
     color: #ffeb3b; /* Yellow on hover */
 }
 
+/* Home Section */
+#home {
+    background-color: #000; /* Black background */
+    color: white; /* White text for contrast */
+    padding: 40px 20px;
+    text-align: center;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+#home h2 {
+    font-size: 36px;
+    margin-bottom: 20px;
+}
+
+#home .cta-button {
+    background-color: #4caf50; /* Green for action button */
+}
+
+#home .cta-button:hover {
+    background-color: #388e3c; /* Darker green */
+}
+
+/* About, Resources, FAQ, and Contact Sections */
 section {
+    background-color: #000; /* Black background */
+    color: white; /* White text */
     padding: 20px;
-    background-color: #ffffff; /* White background for sections */
     border-radius: 8px;
     margin: 20px 0;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Soft shadow */
 }
 
+/* Footer */
 footer {
     background-color: #444;
     color: white;
@@ -159,25 +185,12 @@ form input[type="submit"]:hover {
 
 /* Hero section styles */
 #home {
-    background: linear-gradient(90deg, #6cbf94, #ffeb3b); /* Green to yellow gradient */
-    color: white;
+    background-color: #000; /* Black background for Home */
+    color: white; /* White text */
     padding: 40px 20px;
     text-align: center;
     border-radius: 10px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-}
-
-#home h2 {
-    font-size: 36px;
-    margin-bottom: 20px;
-}
-
-#home .cta-button {
-    background-color: #4caf50; /* Green for action button */
-}
-
-#home .cta-button:hover {
-    background-color: #388e3c; /* Darker green */
 }
 
 .statistics {
@@ -221,4 +234,3 @@ form input[type="submit"]:hover {
     width: 100%;
     border-radius: 8px;
 }
-
