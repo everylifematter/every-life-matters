@@ -3,8 +3,8 @@ body {
     font-family: Arial, sans-serif;
     margin: 0;
     padding: 0;
-    background-color: #f4f4f4; /* Light gray background */
-    color: #333;
+    background-color: #2f2f2f; /* Dark gray background */
+    color: #e0e0e0; /* Lighter text color */
 }
 
 header {
@@ -41,12 +41,12 @@ nav ul li a:hover {
 
 /* Home Section */
 #home {
-    background-color: #000; /* Black background */
-    color: white; /* White text for contrast */
+    background-color: #333; /* Darker gray background */
+    color: white;
     padding: 40px 20px;
     text-align: center;
     border-radius: 10px;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3); /* Slightly darker shadow */
 }
 
 #home h2 {
@@ -64,18 +64,18 @@ nav ul li a:hover {
 
 /* About, Resources, FAQ, and Contact Sections */
 section {
-    background-color: #000; /* Black background */
-    color: white; /* White text */
+    background-color: #444; /* Dark background for sections */
+    color: #e0e0e0; /* Lighter text color */
     padding: 20px;
     border-radius: 8px;
     margin: 20px 0;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Soft shadow */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3); /* Darker shadow */
 }
 
 /* Footer */
 footer {
-    background-color: #444;
-    color: white;
+    background-color: #222; /* Dark footer background */
+    color: #e0e0e0;
     text-align: center;
     padding: 10px;
 }
@@ -115,7 +115,7 @@ button:hover {
 
 ul {
     padding-left: 20px;
-    background-color: #f0f4c3; /* Light yellow background for lists */
+    background-color: #3e3e3e; /* Darker background for lists */
     border-radius: 5px;
     margin-bottom: 20px;
 }
@@ -129,12 +129,13 @@ ul li {
     border-left: 5px solid #4caf50; /* Green bar for blockquote */
     padding-left: 20px;
     font-style: italic;
-    background-color: #f1f8e9; /* Light green background */
+    background-color: #333; /* Darker background for blockquote */
+    color: #e0e0e0; /* Light text */
     margin-bottom: 20px;
 }
 
 .testimonials blockquote footer {
-    color: #333;
+    color: #e0e0e0; /* Light footer color in blockquote */
     font-size: 14px;
     font-weight: bold;
 }
@@ -144,10 +145,10 @@ form {
     flex-direction: column;
     width: 300px;
     margin: auto;
-    background-color: #ffffff;
+    background-color: #555; /* Dark gray form background */
     padding: 20px;
     border-radius: 8px;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
 }
 
 form label {
@@ -158,7 +159,7 @@ form label {
 form input, form textarea {
     padding: 12px;
     margin-bottom: 15px;
-    border: 1px solid #ddd;
+    border: 1px solid #444;
     border-radius: 5px;
     font-size: 16px;
     transition: border-color 0.3s ease;
@@ -185,16 +186,16 @@ form input[type="submit"]:hover {
 
 /* Hero section styles */
 #home {
-    background-color: #000; /* Black background for Home */
-    color: white; /* White text */
+    background-color: #333; /* Black background for Home */
+    color: white;
     padding: 40px 20px;
     text-align: center;
     border-radius: 10px;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
 }
 
 .statistics {
-    background-color: #f0f4c3; /* Light yellow for statistics */
+    background-color: #3e3e3e; /* Dark gray for statistics */
     padding: 20px;
     border-radius: 8px;
 }
@@ -214,7 +215,7 @@ form input[type="submit"]:hover {
 }
 
 .testimonials {
-    background-color: #f9fbe7; /* Light greenish background for testimonials */
+    background-color: #3e3e3e; /* Dark gray for testimonials */
     padding: 20px;
     border-radius: 8px;
 }
@@ -225,7 +226,7 @@ form input[type="submit"]:hover {
 }
 
 .video {
-    background-color: #e8f5e9; /* Light green background for video section */
+    background-color: #444; /* Dark gray for video section */
     padding: 20px;
     border-radius: 8px;
 }
